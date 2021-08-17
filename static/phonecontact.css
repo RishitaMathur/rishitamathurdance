@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+#navbar ul{
+    display: flexbox;
+    flex-direction: column;
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%
+}
+.myinput {
+    width: 95%;
+}
+
+.btn{
+    width:22%;
+}
+
+#footer {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    height: 82px;
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
+}
+
+#footer .third{
+    margin: 0;
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Style+Script&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-family: 'Style Script', cursive;
+    font-weight: bolder;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color:  rgb(222 51 51);
+    padding: 7px 4px;
+    font-family: 'Staatliches', cursive;
+}
+
+#navbar ul{
+     display: flex;
+     flex-direction: row;
+     /* justify-content: center; */
+     align-items: center;
+}
+
+#navbar li{
+list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 3px 25px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introsection{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: center / cover no-repeat url('/static/bg2.jpg');
+     height: 372px;
+     flex-direction: column;
+     font-family: 'Lobster', cursive;
+     padding-bottom: 48px;
+}
+
+#introsection div.small{
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'Lobster', cursive;
+}
+
+#mission{
+    height: 392px;
+    font-family: 'Fjalla One', sans-serif;
+    background: #e0e0e0bd;
+    margin:auto;
+}
+
+#mission h2{
+    text-align: center;
+    padding-top:17px;
+    font-size: 30px;
+}
+
+.card{
+    
+    display: inline-block;
+    border:2px solid black ;
+    border-radius:10px ;
+    width: 27%;
+    margin: 23px 46px;
+    height: 275px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder; 
+    background-color: #f21b1bc2
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+    margin: auto;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 13px 20px;
+}
+
+#sponser{
+    height: 300px;
+    background-color:white;
+    font-family: 'Fjalla One', sans-serif;
+       ;
+}
+
+#sponser h2{
+    text-align: center;
+    padding-top:17px;
+    font-size: 30px;
+}
+
+#sponsers {
+    height: 214px;
+    max-width: 1000px;
+    margin: 8px auto;
+    width: 682px;
+}
+
+.spimage{
+    height: 59%;
+    margin: 34px 23px;
+
+}
+
+#footer{
+    color: white;
+    display: flex;
+    font-size: 20px;  
+    height: 50px;
+    background-color: black
+    ;
+}
+#container {
+    justify-content: flex-start;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#footer .third{
+    margin-left: 71%;
+    margin-top: 12px;
+}
+

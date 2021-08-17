@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Style+Script&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+#navbar ul{
+    display: flexbox;
+    flex-direction: column;
+}
+
+#introsection{
+    font-size: 30px;
+}
+
+#introsection div.small{
+    font-size: 15px;
+}
+#mission{
+    height: 1076px;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flexbox;
+    flex-direction: column;
+    margin: 18px auto;
+    width: 95%;
+    height: 350px;
+}
+
+#sponsers {
+    height: 211px;
+    max-width: fit-content;
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#sponser {
+    height: 610px;
+    background-color: white;
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0px auto;
+    width: 100%;
+}
+
+#footer {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    height: 82px;
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
+}
+
+#footer .third{
+    margin: 0;
+}

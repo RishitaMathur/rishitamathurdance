@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">   
+    <link rel="stylesheet" href="../static/contactstyle.css">
+    <link rel="stylesheet" media="screen and (max-width:1518px)"  href="../static/phonecontact.css" />   
+    <title>Dance Academy</title>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+          <div id="logo"> <img src="/static/logo.png">SDA</div>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Events/Courses </a></li>
+          <li><a href="/">Classes</a></li>
+          <li><a href="/">About Us</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <h1>Contact Us</h1>
+        <form class="myform" action="/contact" method="post">
+          <input class="myinput" type="text" name="name" placeholder="Enter your name" />
+          <input class="myinput" type="number" name="phone" placeholder="Enter phone number" />
+          <input class="myinput" type="email" name="email" placeholder="Enter email" />
+          <input class="myinput" type="text" name="address" placeholder="Enter your address" />
+          <input class="myinput" type="text" name="desc" placeholder="Enter your concern" />
+          <button class="btn">SUBMIT </button>
+        </form>
+      </div>
+      <footer id="footer"> 
+        <div id="container"> 
+          <div class="first">Terms and Conditions </div>
+          <div class="second"> Privacy Policy</div>
+        </div>
+        <div class="third">support@sunitadanceacademy    </div>
+      </footer>
+      <script src="../static/index.js"> </script>
+    </body>
+</body>
+</html>

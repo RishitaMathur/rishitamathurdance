@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Staatliches&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myinput{
+    width:400px;
+    padding: 9px;
+    margin: 8px;
+    border: 1px solid rgb(22, 19, 19);
+    border-radius: 7px;
+    outline: none;
+}
+
+.btn{
+    padding: 6px 16px;
+    margin: 10px;
+    width: 6%;
+    font-size: 18px;
+    border: 2px solid rgba(235, 4, 4, 0.842);
+    border-radius: 7px;
+    color: white;
+    background: #ED1D24;
+    font-family: 'Staatliches', cursive;
+    cursor: pointer;
+}
+
+.container{
+    min-height: 82.1vh;
+    margin-top: 22px;
+}
+
+.container h1{
+    font-family:'Staatliches', cursive ;
+    font-weight: normal;
+}
