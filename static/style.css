@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 #logo{
     display: flex;
     color: white;
@@ -88,7 +92,7 @@ list-style: none;
     display: inline-block;
     border:2px solid black ;
     border-radius:10px ;
-    width: 27%;
+    width: 26%;
     margin: 23px 46px;
     height: 275px;
 }
