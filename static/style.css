@@ -29,6 +29,8 @@ html{
 #navbar{
     background-color:  rgb(222 51 51);
     padding: 7px 4px;
+    position: sticky;
+    top: 0px;
     font-family: 'Staatliches', cursive;
 }
 
