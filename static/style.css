@@ -41,6 +41,16 @@ html{
      align-items: center;
 }
 
+#navbar ul .btn{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+#navbar ul .btn:hover{
+    color: black;
+}
+
 #navbar li{
 list-style: none;
 }
